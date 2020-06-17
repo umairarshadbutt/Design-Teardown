@@ -102,7 +102,7 @@ a {
 
 
 footer {
-  height: 500px;
+  height: 538px;
   background: var(--THEME_COLOR,#d33a2c);
   text-align: center;
   color: white;
@@ -119,7 +119,7 @@ footer h4{
     transform: translateY(0)!important;
 }
 footer ul {
-  margin: 10% 9% 0 9%;
+  margin: 2% 9% 0 9%;
 }
 footer ul li {
   line-height: calc(1.5em + .2vw);
@@ -141,5 +141,34 @@ footer ul li a{
 }
 .footer-middle-div p{
   margin: 0;
+}
+.footer-middle-div a{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-second-list a{
+  color: #fff;
+  text-decoration: underline;
+  padding-bottom: 3px;
+  padding: 7px;
+}
+
+.backgound-image{
+  background-image: url(../images/cat-the-behemoth.svg);
+  background-position: 105% 90%;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 376px 153px;
+}
+
+.backgound-image-bird{
+  background-image: url(../images/laptop__left.svg);
+  background-position: 2% 103%;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 300px 180px;
 }
 
