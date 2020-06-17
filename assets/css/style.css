@@ -94,3 +94,49 @@ a {
 
   background-color: rgba(0,0,0,.2);
 }
+
+
+
+
+
+footer {
+  height: 500px;
+  background: var(--THEME_COLOR,#d33a2c);
+  text-align: center;
+  color: white;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+}
+footer h4{
+  color: #fff;
+    font-size: .9em;
+    margin: 1.2em 0;
+    padding-top: 60px;
+    opacity: 1!important;
+    transform: translateY(0)!important;
+}
+footer ul {
+  margin: 10% 9% 0 9%;
+}
+footer ul li {
+  line-height: calc(1.5em + .2vw);
+    word-break: break-word;
+    display: inline;
+    padding-left: 0;
+    margin: .25em 0;
+    transition: color .2s ease-out;
+    font-size: calc(1.3em + .2vw);
+}
+footer ul li a{
+  color: #fff;
+  font-size: 1.01em;
+}
+.footer-middle-div{
+  margin-top: 66px;
+  font-style: italic;
+  font-size: 1em;
+}
+.footer-middle-div p{
+  margin: 0;
+}
