@@ -26,9 +26,13 @@ a {
   align-items: center;
 }
 
+.nav-item {
+  padding: 0 10px;
+}
+
 .nav-item > a {
   color: white;
-  padding: 13px;
+  padding: 10px;
   text-shadow: 1px 1px 1px rgba(0,0,0,.25);
   font-size: 24px;
   font-weight: 700;
@@ -41,6 +45,7 @@ a {
   padding: .35em .9rem;
   text-shadow: 1px 1px 1px rgba(0,0,0,.25);
   font-size: 24px;
+  z-index: 3;
   font-weight: 700;
 }
 
@@ -90,12 +95,9 @@ a {
   border-radius: 10px;
 }
 
-.nav-item a:hover {
-
+.nav-item:not(.nav-item1) a:hover {
   background-color: rgba(0,0,0,.2);
 }
-
-
 
 
 
@@ -140,3 +142,4 @@ footer ul li a{
 .footer-middle-div p{
   margin: 0;
 }
+
