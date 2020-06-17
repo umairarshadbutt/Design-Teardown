@@ -99,6 +99,98 @@ a {
   background-color: rgba(0,0,0,.2);
 }
 
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article article{
+  padding: 150px 105px;
+  color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    white-space: initial;
+    margin: 0.2em 0 0 0;
+}
+.arrow{
+  font-size: 5rem;
+    color: #fff;
+    display: block;
+    position: absolute;
+    left: 2.5rem;
+    bottom: 2.5rem;
+}
+.article img{
+  width: 70px;
+    height: 70px;
+    background-color: white;
+    margin-right: 30px;
+    border: 4px solid #FFF;
+    border-radius: 8px;
+}
+.profile{
+  transform: rotate(-15deg);
+  transform-origin: left bottom;
+}
+.profile:hover{
+  transform: rotate(-1deg);
+}
+.box {
+  width: 50%;
+  height: 550px;
+  position: relative;
+}
+.box h1{
+  font-size: 2em;
+    font-weight: 900;
+}
+.box p{
+  font-size: 1.2em;
+  line-height: 88px;
+}
+.box p span{
+  color: black;
+}
+.box .comment{
+  font-size: .6em;
+}
+.box article div{
+  position: relative;
+}
+.box-color1{
+  background: #bc3e28;
+}
+.box-color2{
+  background: #c8422a;
+}
+.box-color3{
+  background: #b13a25;
+}
+.box-color4{
+  background: #bc3e28;
+}
+.box .writer-name{
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+  display: inline-block;
+  float: none;
+  font-size: 1.29em;
+  vertical-align: middle;
+  white-space: initial;
+  margin: 0.2em 0 0 0;
+}
+
+.name-position{
+  position: absolute;
+  top: 10px;
+}
+@media(max-width: 400px) {
+  .box {
+     width: 100%;
+   }
+}
 
 
 footer {
@@ -122,7 +214,7 @@ footer ul {
   margin: 2% 9% 0 9%;
 }
 footer ul li {
-  line-height: calc(1.5em + .2vw);
+  line-height: 43px;
     word-break: break-word;
     display: inline;
     padding-left: 0;
@@ -133,6 +225,9 @@ footer ul li {
 footer ul li a{
   color: #fff;
   font-size: 1.01em;
+}
+footer ul li a:hover{
+  color: #333;
 }
 .footer-middle-div{
   margin-top: 66px;
@@ -156,7 +251,7 @@ footer ul li a{
 
 .backgound-image{
   background-image: url(../images/cat-the-behemoth.svg);
-  background-position: 105% 90%;
+  background-position: 105% 100%;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
