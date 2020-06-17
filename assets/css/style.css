@@ -6,6 +6,7 @@
 
 body {
   font-family: Calibri;
+  background-color: #f6f3f2;
 }
 
 ul {
@@ -15,6 +16,25 @@ ul {
 a {
   text-decoration: none;
 }
+
+.column4 {
+  float: left;
+  padding: 37px;
+  height: 300px; 
+  width: 33.33%;
+}
+.column4 h2{
+  font-size: 1.7em;
+}
+.column4 a{
+  color: #121c3c;
+}
+.latest{
+  height: 401px;
+
+}
+
+
 
 .nav {
   display: flex;
@@ -120,7 +140,7 @@ a {
     display: block;
     position: absolute;
     left: 2.5rem;
-    bottom: 2.5rem;
+    bottom: 0.5rem;
 }
 .article img{
   width: 70px;
