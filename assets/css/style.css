@@ -10,6 +10,9 @@
 body {
   font-family: 'Balsamiq Sans', cursive;
   background-color: #f6f3f2;
+  line-height: calc(1.5em + .2vw);
+    word-break: break-word;
+
 }
 
 ul {
@@ -655,3 +658,50 @@ position: absolute;
 mark {
   background-color: white;
 }
+
+/* START: Guid section */
+
+.guids {
+  display: flex;
+  justify-content: space-around;
+  background: #f6f3f2;
+}
+
+.guid {
+  border: none;
+  background: #fff;
+  margin: 20px;
+  border-radius: 10px;
+  z-index: 99;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.guid-btn {
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: calc(1em + .25vw);
+  padding: .75em 1em;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+  background: #333;
+}
+
+.guild1 .guid-btn {
+  background-image: linear-gradient(#41b14f,#41b14f);
+}
+
+
+.guild2 .guid-btn {
+  background-image: linear-gradient(#ff5a00,#ff5a00);
+}
+
+.guild3 .guid-btn {
+  background-image: linear-gradient(#aa1a94,#aa1a94);
+}
+
+/* END: Guid section */
