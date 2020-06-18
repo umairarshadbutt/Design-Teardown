@@ -288,7 +288,14 @@ header {
 .smashing-members {
   clear: both;
   display: grid;
+  margin: 20px 0;
   grid-template-columns: 2fr 1fr 1fr;
+  padding: 20px;
+}
+
+.smashing-members2 {
+  display: grid;
+  grid-template-columns:  1fr 1fr 2fr;
   padding: 20px;
 }
 
@@ -335,9 +342,7 @@ header {
   justify-content: space-between;
 }
 
-.news-item {
-  padding: 10px 20px;
-}
+
 
 .news-author {
   color: #666;
@@ -354,9 +359,10 @@ header {
   font-size: .8em;
 }
 
-.news h2 {
-  padding: 10px 0;
+.news-item {
+  padding: 10px 20px;
 }
+
 .news h2 a {
   color: #111;
   text-decoration: underline;
@@ -426,7 +432,7 @@ footer {
     position: relative;
 }
 footer h4{
-  color: #fff;
+    color: #fff;
     font-size: .9em;
     margin: 1.2em 0;
     padding-top: 60px;
