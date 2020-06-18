@@ -601,6 +601,8 @@ footer ul li a:hover{
 
 .book-section{
   display: flex;
+  height: 337px;
+    margin-top: 136px;
     background-color: #d33a2c;
     border-radius: 0;
     color: #fff;
@@ -611,8 +613,33 @@ footer ul li a:hover{
 .book-left{
   flex-basis: 65%;
 }
+
+.book-left span{
+  line-height: 3em;
+  font-size: 0.8em;
+}
+
+.book-left h1{
+  font-size: 2em;
+  line-height: 1.9em;
+}
+
+.book-left p{
+  line-height: 1.5em;
+  font-weight: 100;
+}
+
+
 .book-right{
+  padding-left: 10%;
   flex-basis: 35%;
+  margin-top: -59px;
+}
+.book-img{
+  width: 200px;
+    height: 245px;
+    transform: rotate(-23deg);
+    transform-origin: left bottom;
 }
 
 .popup-text {
