@@ -17,29 +17,16 @@ a {
   text-decoration: none;
 }
 
-.column4 {
-  float: left;
-  padding: 37px;
-  height: 300px; 
-  width: 33.33%;
-}
-.column4 h2{
-  font-size: 1.7em;
-}
-.column4 a{
-  color: #121c3c;
-}
-.latest{
-  height: 401px;
 
+header {
+  min-width: 1600px;
 }
-
-
 
 .nav {
   display: flex;
+  width: 100%;
   justify-content: space-around;
-  background: var(--THEME_COLOR,#d33a2c);
+  background: #d33a2c;
   padding: 1rem 2em;
   height: 110px;
   z-index: 2;
@@ -47,6 +34,7 @@ a {
 }
 
 .nav-item {
+  flex-grow: 1;
   padding: 0 10px;
 }
 
@@ -74,12 +62,8 @@ a {
   transform: translate(0,15%);
 }
 
-.nav-item {
-  flex: 1;
-}
-
-.nav-item11 {
-  flex: 2;
+.nav-item11, .nav-item1 {
+  flex-grow: 2;
 }
 
 .nav-item11 input {
@@ -118,6 +102,24 @@ a {
 .nav-item:not(.nav-item1) a:hover {
   background-color: rgba(0,0,0,.2);
 }
+
+.column4 {
+  float: left;
+  padding: 37px;
+  height: 300px; 
+  width: 33.33%;
+}
+.column4 h2{
+  font-size: 1.7em;
+}
+.column4 a{
+  color: #121c3c;
+}
+.latest{
+  height: 401px;
+
+}
+
 
 #container {
   display: flex;
