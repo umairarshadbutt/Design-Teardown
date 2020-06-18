@@ -531,3 +531,17 @@ footer ul li a:hover{
   border-radius: 8px;
   margin-left: 50px;
 }
+
+.popup-text {
+position: absolute;
+    margin-left: 390px;
+    margin-top: 15px;
+    width: 15em;
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+    z-index: 11;
+}
+mark {
+  background-color: white;
+}
