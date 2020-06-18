@@ -180,7 +180,7 @@ header {
 }
 
 .article article {
-  padding: 150px 105px;
+  padding: 150px 84px;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
   display: inline-block;
@@ -196,7 +196,7 @@ header {
   display: block;
   position: absolute;
   left: 2.5rem;
-  bottom: 0.5rem;
+  bottom: 2.5rem;
 }
 
 .arrow-latest {
@@ -238,6 +238,7 @@ header {
 .box h1 {
   font-size: 2em;
   font-weight: 900;
+  line-height: 1.2em;
 }
 
 .box p {
@@ -477,7 +478,7 @@ header {
 /* END */
 
 footer {
-  height: 538px;
+  height: 637px;
   background: var(--THEME_COLOR, #d33a2c);
   text-align: center;
   color: white;
@@ -540,6 +541,10 @@ footer ul li a:hover {
   padding: 7px;
 }
 
+.footer-second-list ul {
+  width: 64%;
+  margin-left: 17%;
+}
 .backgound-image {
   background-image: url(../images/cat-the-behemoth.svg);
   background-position: 105% 100%;
