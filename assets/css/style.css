@@ -288,7 +288,14 @@ header {
 .smashing-members {
   clear: both;
   display: grid;
+  margin: 20px 0;
   grid-template-columns: 2fr 1fr 1fr;
+  padding: 20px;
+}
+
+.smashing-members2 {
+  display: grid;
+  grid-template-columns:  1fr 1fr 2fr;
   padding: 20px;
 }
 
@@ -299,6 +306,7 @@ header {
   flex-direction: column;
   align-items: center;
   background-color: #d33a2c;
+  padding: 20px 0;
 }
 
 .counter-img {
@@ -307,12 +315,20 @@ header {
   background: url('../images/singing-barista.svg') 0 0 no-repeat  ;
 }
 
+.counter-footer {
+  font-size: calc(.7em + .1vw);
+    padding: 1.5em 1.5em 0 1.5em;
+    line-height: 1.5;
+}
+
+.cf-link {
+    color: #fff;
+}
+
 .number-heading {
     font-size: 2.14857em;
     text-shadow: 3px 0 #d33a2c, 2px 0 #d33a2c, 1px 0 #d33a2c, -1px 0 #d33a2c, -2px 0 #d33a2c, -3px 0 #d33a2c;
-    /* background-image: linear-gradient(#e58980,#e58980);
-    background-size: 100% 3px;
-    background-position: center bottom 25%; */
+   
 }
 
 .number-heading a {
@@ -321,18 +337,32 @@ header {
 }
 
 .counter p {
-  width: 50%;
+  width: 70%;
   margin: auto;
   text-align: center;
   padding: 10px;
   color: #FFF;
+    font-size: 1em;
+    line-height: calc(1.5em + .2vw);
+    word-break: break-word;
 }
 
 .news {
-  padding: 10px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+
+
+.news-author {
+  color: #666;
+  text-decoration: underline;
+}
+
+.news-author:hover {
+  color: #333;
 }
 
 .news .day {
@@ -341,9 +371,10 @@ header {
   font-size: .8em;
 }
 
-.news h2 {
-  padding: 10px 0;
+.news-item {
+  padding: 10px 20px;
 }
+
 .news h2 a {
   color: #111;
   text-decoration: underline;
@@ -371,18 +402,51 @@ header {
   color: #d33a2c;
 }
 
-.detail, .news-arrow {
+.detail {
   flex: 2;
 }
 
-.news-arrow a {
+.news-arrow {
   height: 100px;
   width: 100px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news:hover h2 a {
+    color: #d33a2c;
+    text-decoration: none;
+    padding: 10px 0;
+    background-image: linear-gradient(#d33a2c,#d33a2c);
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: center bottom 29%;
+    background-origin: padding-box;
+}
+.news:hover .news-arrow  {
+  background-color: royalblue;
 }
 
-.news-arrow a .news::after {
-  background-color: royalblue;
+.news:hover .news-arrow a i {
+  color: #FFF;
+}
+
+.button-link {
+  width: 230px;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-link a, .button-link i {
+  color: #267dcc;
+  text-align: center;
+  font-family: Mija;
+  font-size: calc(.9em + .1vw);
 }
 
 /* END */
@@ -397,7 +461,7 @@ footer {
     position: relative;
 }
 footer h4{
-  color: #fff;
+    color: #fff;
     font-size: .9em;
     margin: 1.2em 0;
     padding-top: 60px;
