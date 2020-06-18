@@ -306,6 +306,7 @@ header {
   flex-direction: column;
   align-items: center;
   background-color: #d33a2c;
+  padding: 20px 0;
 }
 
 .counter-img {
@@ -314,12 +315,20 @@ header {
   background: url('../images/singing-barista.svg') 0 0 no-repeat  ;
 }
 
+.counter-footer {
+  font-size: calc(.7em + .1vw);
+    padding: 1.5em 1.5em 0 1.5em;
+    line-height: 1.5;
+}
+
+.cf-link {
+    color: #fff;
+}
+
 .number-heading {
     font-size: 2.14857em;
     text-shadow: 3px 0 #d33a2c, 2px 0 #d33a2c, 1px 0 #d33a2c, -1px 0 #d33a2c, -2px 0 #d33a2c, -3px 0 #d33a2c;
-    /* background-image: linear-gradient(#e58980,#e58980);
-    background-size: 100% 3px;
-    background-position: center bottom 25%; */
+   
 }
 
 .number-heading a {
@@ -328,11 +337,14 @@ header {
 }
 
 .counter p {
-  width: 50%;
+  width: 70%;
   margin: auto;
   text-align: center;
   padding: 10px;
   color: #FFF;
+    font-size: 1em;
+    line-height: calc(1.5em + .2vw);
+    word-break: break-word;
 }
 
 .news {
@@ -419,6 +431,23 @@ header {
   color: #FFF;
 }
 
+.button-link {
+  width: 230px;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-link a, .button-link i {
+  color: #267dcc;
+  text-align: center;
+  font-family: Mija;
+  font-size: calc(.9em + .1vw);
+}
 
 /* END */
 
