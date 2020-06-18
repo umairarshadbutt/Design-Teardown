@@ -532,6 +532,25 @@ footer ul li a:hover{
   margin-left: 50px;
 }
 
+
+
+
+.book-section{
+  display: flex;
+    background-color: #d33a2c;
+    border-radius: 0;
+    color: #fff;
+    padding: 2.5em 1em;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+.book-left{
+  flex-basis: 65%;
+}
+.book-right{
+  flex-basis: 35%;
+}
+
 .popup-text {
 position: absolute;
     margin-left: 390px;
