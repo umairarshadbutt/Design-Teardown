@@ -25,9 +25,22 @@ a {
 }
 .column4 h2{
   font-size: 1.7em;
+  margin-bottom: 24px;
+  text-decoration: underline;
+}
+
+.column4 p{
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #111;
+  line-height: 2.1em;
 }
 .column4 a{
   color: #121c3c;
+}
+
+.column4:hover h2 a{
+  color: red;
 }
 .latest{
   height: 401px;
