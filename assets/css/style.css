@@ -17,6 +17,7 @@ a {
   text-decoration: none;
 }
 
+
 .column4 {
   float: left;
   padding: 37px;
@@ -35,24 +36,43 @@ a {
   color: #111;
   line-height: 2.1em;
 }
-.column4 a{
+.column4 h2 a{
   color: #121c3c;
+}
+.column4 span a{
+  color: #121c3c;
+}
+.column4 a{
+  color: red;
 }
 
 .column4:hover h2 a{
   color: red;
 }
-.latest{
-  height: 401px;
-
+.column4:hover {
+  transform: scale(1.01); 
+  background-color: white;
 }
 
+.column4:hover .arrow-latest{
+  background-color: #006fc6;
+  color: white;
+  width: 110px;
+  height: 110px;
+}
 
+.latest{
+  height: 401px;
+}
+header {
+  min-width: 1600px;
+}
 
 .nav {
   display: flex;
+  width: 100%;
   justify-content: space-around;
-  background: var(--THEME_COLOR,#d33a2c);
+  background: #d33a2c;
   padding: 1rem 2em;
   height: 110px;
   z-index: 2;
@@ -60,6 +80,7 @@ a {
 }
 
 .nav-item {
+  flex-grow: 1;
   padding: 0 10px;
 }
 
@@ -87,12 +108,8 @@ a {
   transform: translate(0,15%);
 }
 
-.nav-item {
-  flex: 1;
-}
-
-.nav-item11 {
-  flex: 2;
+.nav-item11, .nav-item1 {
+  flex-grow: 2;
 }
 
 .nav-item11 input {
@@ -132,6 +149,21 @@ a {
   background-color: rgba(0,0,0,.2);
 }
 
+.column4 {
+  text-align: initial;
+  float: left;
+  padding: 37px 17px 17px 17px;
+  height: 450px;
+  width: 33.33%;
+  position: relative;
+}
+
+.latest{
+  margin-top: 14px;
+  height: 419px;
+}
+
+
 #container {
   display: flex;
   flex-wrap: wrap;
@@ -154,6 +186,17 @@ a {
     position: absolute;
     left: 2.5rem;
     bottom: 0.5rem;
+}
+.arrow-latest{
+  font-size: 2rem;
+  color: #fff;
+  display: block;
+  position: absolute;
+  left: -0.1rem;
+  bottom: 1.5rem;
+  top: 76%;
+  padding-left: 35px;
+  padding-top: 35px;
 }
 .article img{
   width: 70px;
