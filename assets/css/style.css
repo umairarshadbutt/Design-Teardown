@@ -461,3 +461,38 @@ footer ul li a:hover{
   background-size: 300px 180px;
 }
 
+.banner {
+  color: white;
+  background-color: #267dcd;
+  padding: 50px 280px;
+  margin: 10px 0;
+}
+.txt-center {
+  text-align: center;
+}
+
+.banner h1, .banner h4, .banner p {
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 2px rgba(10,12,11,0.6);
+}
+.banner h1{
+  font-size: 2.1em;
+}
+.banner h1 a{
+  color: white;
+  text-decoration: underline #166ac3;
+}
+.banner p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.light-btn {
+  cursor: pointer;
+  color: #267dcd;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 18px 30px;
+  border-radius: 10px;
+  border: none;
+}
