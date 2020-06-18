@@ -326,10 +326,23 @@ header {
 }
 
 .news {
-  padding: 10px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.news-item {
+  padding: 10px 20px;
+}
+
+.news-author {
+  color: #666;
+  text-decoration: underline;
+}
+
+.news-author:hover {
+  color: #333;
 }
 
 .news .day {
@@ -368,19 +381,35 @@ header {
   color: #d33a2c;
 }
 
-.detail, .news-arrow {
+.detail {
   flex: 2;
 }
 
-.news-arrow a {
+.news-arrow {
   height: 100px;
   width: 100px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.news-arrow a .news::after {
+.news:hover h2 a {
+    color: #d33a2c;
+    text-decoration: none;
+    padding: 10px 0;
+    background-image: linear-gradient(#d33a2c,#d33a2c);
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: center bottom 29%;
+    background-origin: padding-box;
+}
+.news:hover .news-arrow  {
   background-color: royalblue;
 }
+
+.news:hover .news-arrow a i {
+  color: #FFF;
+}
+
 
 /* END */
 
