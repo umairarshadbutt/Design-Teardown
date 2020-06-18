@@ -34,8 +34,6 @@ a {
 
 }
 
-
-
 .nav {
   display: flex;
   justify-content: space-around;
@@ -119,49 +117,78 @@ a {
   background-color: rgba(0,0,0,.2);
 }
 
-#container {
-  display: flex;
-  flex-wrap: wrap;
+.box-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1.2fr 1fr;
 }
 
-.article article{
+.box {
   padding: 150px 105px;
   color: #fff;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.25);
-    display: inline-block;
-    float: none;
-    vertical-align: middle;
-    white-space: initial;
-    margin: 0.2em 0 0 0;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+  white-space: initial;
 }
-.arrow{
-  font-size: 5rem;
+
+.arrow-span {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.arrow {
+    font-size: 5rem;
     color: #fff;
-    display: block;
-    position: absolute;
-    left: 2.5rem;
-    bottom: 0.5rem;
+    font-weight: 300;
+
 }
-.article img{
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile-img {
   width: 70px;
     height: 70px;
     background-color: white;
     margin-right: 30px;
     border: 4px solid #FFF;
     border-radius: 8px;
-}
-.profile{
   transform: rotate(-15deg);
   transform-origin: left bottom;
 }
-.profile:hover{
+.profile-img:hover{
   transform: rotate(-1deg);
 }
-.box {
-  width: 50%;
-  height: 550px;
-  position: relative;
+
+.hash-list {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.2em;
+  line-height: 88px;
 }
+
+.hash-item {
+    color: #61140f;
+    margin: 0;
+    padding:  1.2em;
+    list-style: none;
+    background-image: url('../images/hashtag-solid.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: .7em;
+}
+
+.hash-list a {
+  color: #FFF;
+  font-size: 1.2em;
+}
+
 .box h1{
   font-size: 2em;
     font-weight: 900;
@@ -170,7 +197,7 @@ a {
   font-size: 1.2em;
   line-height: 88px;
 }
-.box p span{
+.box p span {
   color: black;
 }
 .box .comment{
@@ -179,7 +206,7 @@ a {
 .box article div{
   position: relative;
 }
-.box-color1{
+.box-color1, .box-color4 {
   background: #bc3e28;
 }
 .box-color2{
@@ -188,9 +215,7 @@ a {
 .box-color3{
   background: #b13a25;
 }
-.box-color4{
-  background: #bc3e28;
-}
+
 .box .writer-name{
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0,0,0,.25);
@@ -278,7 +303,7 @@ footer ul li a:hover{
   background-size: 376px 153px;
 }
 
-.backgound-image-bird{
+.backgound-image-bird {
   background-image: url(../images/laptop__left.svg);
   background-position: 2% 103%;
   background-repeat: no-repeat;
