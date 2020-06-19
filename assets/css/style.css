@@ -32,6 +32,7 @@ a {
 .column4 h2 {
   font-size: 1.7em;
   margin-bottom: 24px;
+  line-height: 1.2em;
   text-decoration: underline;
 }
 
@@ -47,7 +48,8 @@ a {
 }
 
 .column4 span a {
-  color: #121c3c;
+  color: #666;
+  text-decoration: underline;
 }
 
 .column4 a {
@@ -163,8 +165,8 @@ header {
 .column4 {
   text-align: initial;
   float: left;
-  padding: 37px 17px 17px 17px;
-  height: 450px;
+  padding: 37px 17px 17px 29px;
+  height: 576px;
   width: 33.33%;
   position: relative;
 }
@@ -206,7 +208,7 @@ header {
   position: absolute;
   left: -0.1rem;
   bottom: 1.5rem;
-  top: 76%;
+  top: 81%;
   padding-left: 35px;
   padding-top: 35px;
 }
@@ -703,6 +705,11 @@ footer ul li a:hover {
 
 mark {
   background-color: white;
+}
+
+.column4 .latest-day{
+  font-size: 0.9em;
+  color: #9a9292;
 }
 
 /* START: Guid section */
