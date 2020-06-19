@@ -1,7 +1,7 @@
 #Design Teardown
 Microverse Collaborative Project (Berhanu and Umair)
 
-![screenshot](img/project.png)
+![screenshot](assets/images/design.png)
 
 Additional description about the project and its features.
 
