@@ -45,7 +45,10 @@ To get a local copy  and to set it up and running follow these simple example st
 - Twitter: [@its_UmairArshad](https://twitter.com/its_UmairArshad)
 - Linkedin: [umair-arshad-butt](https://www.linkedin.com/in/umair-arshad-butt/)
 
+**Berhanu Tarekegn**
 
+- Github: [@berhanu-tarekegn](https://github.com/berhanu-tarekegn)
+- Linkedin: [Berhanu](https://www.linkedin.com/in/berhanu-tarekegn-687367123/)
 
 ## Show your support
 
