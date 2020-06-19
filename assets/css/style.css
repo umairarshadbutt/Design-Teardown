@@ -12,6 +12,7 @@ body {
   background-color: #f6f3f2;
   line-height: calc(1.5em + 0.2vw);
   word-break: break-word;
+  font-size: calc(.35842vw + .95296em);
 }
 
 ul {
@@ -74,10 +75,6 @@ a {
 
 .latest {
   height: 401px;
-}
-
-header {
-  min-width: 1600px;
 }
 
 .nav {
@@ -786,6 +783,39 @@ mark {
   padding: 20px;
 }
 
+.guid h6 {
+    font-size: 0.67em;
+    font-weight: bold;
+}
+
+.guid a {
+    font-size: 2.14857em;
+    line-height: 1.2;
+    text-decoration: none;
+    padding: 10px 0;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: center bottom 29%;
+    background-origin: padding-box;
+    text-shadow: 3px 0 #fff, 2px 0 #fff, 1px 0 #fff, -1px 0 #fff, -2px 0 #fff, -3px 0 #fff;
+}
+
+.guild1 a {
+  background-image: linear-gradient(#41b14f, #41b14f);
+  color: #41b14f;
+  
+}
+
+.guild2 a {
+  background-image: linear-gradient(#ff5a00, #ff5a00);
+  color: #ff5a00;
+}
+
+.guild3 a {
+  background-image: linear-gradient(#aa1a94, #aa1a94);
+  color: #aa1994;
+}
+
 .guid-btn {
   color: #fff;
   border: none;
@@ -794,6 +824,8 @@ mark {
   padding: 0.75em 1em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
   background: #333;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .guild1 .guid-btn {
@@ -806,6 +838,11 @@ mark {
 
 .guild3 .guid-btn {
   background-image: linear-gradient(#aa1a94, #aa1a94);
+}
+
+.guid p {
+  margin-top: 20px;
+  color: #333;
 }
 
 /* END: Guid section */
