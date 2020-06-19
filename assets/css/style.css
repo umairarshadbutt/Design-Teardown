@@ -22,11 +22,19 @@ a {
   text-decoration: none;
 }
 
-.column4 {
-  float: left;
-  padding: 37px;
-  height: 300px;
-  width: 33.33%;
+footer ul li a {
+  color: #fff;
+  font-size: 1.01em;
+}
+
+.guild1 a {
+  background-image: linear-gradient(#41b14f, #41b14f);
+  color: #41b14f;
+}
+
+.guild2 a {
+  background-image: linear-gradient(#ff5a00, #ff5a00);
+  color: #ff5a00;
 }
 
 .column4 h2 {
@@ -43,37 +51,13 @@ a {
   line-height: 2.1em;
 }
 
-.column4 h2 a {
-  color: #121c3c;
-}
-
-.column4 span a {
-  color: #666;
-  text-decoration: underline;
-}
-
 .column4 a {
   color: red;
 }
 
-.column4:hover h2 a {
-  color: red;
-}
-
-.column4:hover {
-  transform: scale(1.01);
-  background-color: white;
-}
-
-.column4:hover .arrow-latest {
-  background-color: #006fc6;
-  color: white;
-  width: 110px;
-  height: 110px;
-}
-
 .latest {
-  height: 401px;
+  margin-top: 14px;
+  height: 419px;
 }
 
 .nav {
@@ -131,31 +115,19 @@ a {
 }
 
 .nav-item10 button {
-  border: none;
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-.nav-item10 button {
   max-width: 100%;
   min-width: 50%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-}
-
-.nav-item10 button img {
-  width: 32px;
-  height: 32px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .nav-item a {
   border: none;
   border-radius: 10px;
-}
-
-.nav-item:not(.nav-item1) a:hover {
-  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .column4 {
@@ -165,11 +137,6 @@ a {
   height: 576px;
   width: 33.33%;
   position: relative;
-}
-
-.latest {
-  margin-top: 14px;
-  height: 419px;
 }
 
 #container {
@@ -209,6 +176,18 @@ a {
   padding-top: 35px;
 }
 
+.column4:hover {
+  transform: scale(1.01);
+  background-color: white;
+}
+
+.column4:hover .arrow-latest {
+  background-color: #006fc6;
+  color: white;
+  width: 110px;
+  height: 110px;
+}
+
 .article img {
   width: 70px;
   height: 70px;
@@ -242,10 +221,6 @@ a {
 .box p {
   font-size: 1.2em;
   line-height: 88px;
-}
-
-.box p span {
-  color: black;
 }
 
 .box .comment {
@@ -396,11 +371,6 @@ a {
   padding: 10px 20px;
 }
 
-.news h2 a {
-  color: #111;
-  text-decoration: underline;
-}
-
 .news p {
   font-size: calc(0.85em + 0.2vw);
   line-height: calc(1.5em + 0.2vw);
@@ -411,12 +381,6 @@ a {
   transform: scale(1.2);
   background: #fff;
   border: none;
-}
-
-.news-arrow {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
 
 .fa-arrow-right {
@@ -431,27 +395,13 @@ a {
   height: 100px;
   width: 100px;
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-
-.news:hover h2 a {
-  color: #d33a2c;
-  text-decoration: none;
-  padding: 10px 0;
-  background-image: linear-gradient(#d33a2c, #d33a2c);
-  background-repeat: no-repeat;
-  background-size: 100% 1px;
-  background-position: center bottom 29%;
-  background-origin: padding-box;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .news:hover .news-arrow {
   background-color: royalblue;
-}
-
-.news:hover .news-arrow a i {
-  color: #fff;
 }
 
 .button-link {
@@ -469,9 +419,13 @@ a {
 .button-link i {
   color: #267dcc;
   text-align: center;
-  font-family: Mija;
   font-size: calc(0.9em + 0.1vw);
 }
+
+.news:hover .news-arrow a i {
+  color: #fff;
+}
+
 
 /* END */
 
@@ -508,15 +462,6 @@ footer ul li {
   font-size: calc(1.3em + 0.2vw);
 }
 
-footer ul li a {
-  color: #fff;
-  font-size: 1.01em;
-}
-
-footer ul li a:hover {
-  color: #333;
-}
-
 .footer-middle-div {
   margin-top: 66px;
   font-style: italic;
@@ -535,7 +480,6 @@ footer ul li a:hover {
 .footer-second-list a {
   color: #fff;
   text-decoration: underline;
-  padding-bottom: 3px;
   padding: 7px;
 }
 
@@ -584,11 +528,6 @@ footer ul li a:hover {
   font-size: 2.1em;
 }
 
-.banner h1 a {
-  color: white;
-  text-decoration: underline #166ac3;
-}
-
 .banner p {
   font-size: 18px;
   line-height: 1.6;
@@ -623,10 +562,6 @@ footer ul li a:hover {
   height: 200px;
 }
 
-.person-of-week p a {
-  text-decoration: underline;
-}
-
 .col2-person-of-week {
   float: left;
   width: 17%;
@@ -654,20 +589,11 @@ footer ul li a:hover {
   font-size: calc(0.9em + 0.1vw);
 }
 
-.col10-person-of-week-sub span a {
-  color: #666;
-  text-decoration: underline;
-}
-
 .col10-person-of-week-sub h1 {
   color: #333;
   font-size: calc(18px + 1vw);
   max-width: 800px;
   margin: 0.15em 0 0.5em;
-}
-
-.col10-person-of-week-sub h1:hover {
-  color: red;
 }
 
 time {
@@ -701,6 +627,11 @@ time {
   margin-left: 50px;
 }
 
+.nav-item10 button img {
+  width: 32px;
+  height: 32px;
+}
+
 .book-section {
   display: flex;
   height: 337px;
@@ -721,9 +652,17 @@ time {
   font-size: 0.8em;
 }
 
+.box p span {
+  color: black;
+}
+
 .book-left h1 {
   font-size: 2em;
   line-height: 1.9em;
+}
+
+.col10-person-of-week-sub h1:hover {
+  color: red;
 }
 
 .book-left p {
@@ -803,19 +742,18 @@ mark {
   text-shadow: 3px 0 #fff, 2px 0 #fff, 1px 0 #fff, -1px 0 #fff, -2px 0 #fff, -3px 0 #fff;
 }
 
-.guild1 a {
-  background-image: linear-gradient(#41b14f, #41b14f);
-  color: #41b14f;
-}
-
-.guild2 a {
-  background-image: linear-gradient(#ff5a00, #ff5a00);
-  color: #ff5a00;
-}
-
 .guild3 a {
   background-image: linear-gradient(#aa1a94, #aa1a94);
   color: #aa1994;
+}
+
+.person-of-week p a {
+  text-decoration: underline;
+}
+
+.col10-person-of-week-sub span a {
+  color: #666;
+  text-decoration: underline;
 }
 
 .guid-btn {
@@ -849,6 +787,11 @@ mark {
 }
 
 /* END: Guid section */
+.banner h1 a {
+  color: white;
+  text-decoration: underline #166ac3;
+}
+
 .floating-text {
   font-size: 39px;
   color: black;
@@ -863,4 +806,41 @@ mark {
   text-align: center;
   width: 100%;
   z-index: 1;
+}
+
+.column4 h2 a {
+  color: #121c3c;
+}
+
+.column4 span a {
+  color: #666;
+  text-decoration: underline;
+}
+
+.news h2 a {
+  color: #111;
+  text-decoration: underline;
+}
+
+footer ul li a:hover {
+  color: #333;
+}
+
+.column4:hover h2 a {
+  color: red;
+}
+
+.news:hover h2 a {
+  color: #d33a2c;
+  text-decoration: none;
+  padding: 10px 0;
+  background-image: linear-gradient(#d33a2c, #d33a2c);
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  background-position: center bottom 29%;
+  background-origin: padding-box;
+}
+
+.nav-item:not(.nav-item1) a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
