@@ -639,9 +639,28 @@ footer ul li a:hover {
   width: 83%;
 }
 
-.person-of-week img {
+.col2-person-of-week-sub {
+  float: left;
+  width: 8%;
+}
+
+.col10-person-of-week-sub {
+  float: left;
+  width: 40%;
+  margin-left: 2%;
+}
+
+.col2-person-of-week-sub img{
+  width: 70px;
+    height: 70px;
+}
+
+.col2-person-of-week img {
   width: 150px;
   height: 140px;
+}
+.person-of-week img {
+ 
   background-color: white;
   margin-right: 30px;
   border: 4px solid red;
