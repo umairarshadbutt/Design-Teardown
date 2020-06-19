@@ -809,3 +809,17 @@ mark {
 }
 
 /* END: Guid section */
+.floating-text{
+  font-size: 39px;
+    color: black;
+    font-weight: 700;
+    background: white;
+    line-height: 1em;
+    box-shadow: 0 49px 20px -22px rgb(0, 0, 0);
+}
+.float-txt{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
