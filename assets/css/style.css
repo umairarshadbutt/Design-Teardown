@@ -543,6 +543,7 @@ footer ul li a:hover {
   width: 64%;
   margin-left: 17%;
 }
+
 .backgound-image {
   background-image: url(../images/cat-the-behemoth.svg);
   background-position: 105% 100%;
@@ -647,49 +648,52 @@ footer ul li a:hover {
   margin-left: 2%;
 }
 
-.col10-person-of-week-sub span{
+.col10-person-of-week-sub span {
   color: #666;
   font-weight: 700;
-  font-size: calc(.9em + .1vw);
+  font-size: calc(0.9em + 0.1vw);
 }
 
-.col10-person-of-week-sub span a{
+.col10-person-of-week-sub span a {
   color: #666;
   text-decoration: underline;
 }
 
-.col10-person-of-week-sub h1{
+.col10-person-of-week-sub h1 {
   color: #333;
-    font-size: calc(18px + 1vw);
-    max-width: 800px;
-    margin: .15em 0 .5em;
+  font-size: calc(18px + 1vw);
+  max-width: 800px;
+  margin: 0.15em 0 0.5em;
 }
 
-.col10-person-of-week-sub h1:hover{
+.col10-person-of-week-sub h1:hover {
   color: red;
 }
-time{
+
+time {
   font-style: italic;
 }
+
 .col10-person-of-week-sub p {
   font-family: none;
   margin-bottom: 26px;
 }
 
-.latest-new-div{
+.latest-new-div {
   margin-left: 70px;
 }
-.col2-person-of-week-sub img{
+
+.col2-person-of-week-sub img {
   width: 70px;
-    height: 70px;
+  height: 70px;
 }
 
 .col2-person-of-week img {
   width: 150px;
   height: 140px;
 }
+
 .person-of-week img {
- 
   background-color: white;
   margin-right: 30px;
   border: 4px solid red;
@@ -755,7 +759,7 @@ mark {
   background-color: white;
 }
 
-.column4 .latest-day{
+.column4 .latest-day {
   font-size: 0.9em;
   color: #9a9292;
 }
@@ -783,26 +787,25 @@ mark {
 }
 
 .guid h6 {
-    font-size: 0.67em;
-    font-weight: bold;
+  font-size: 0.67em;
+  font-weight: bold;
 }
 
 .guid a {
-    font-size: 2.14857em;
-    line-height: 1.2;
-    text-decoration: none;
-    padding: 10px 0;
-    background-repeat: no-repeat;
-    background-size: 100% 1px;
-    background-position: center bottom 29%;
-    background-origin: padding-box;
-    text-shadow: 3px 0 #fff, 2px 0 #fff, 1px 0 #fff, -1px 0 #fff, -2px 0 #fff, -3px 0 #fff;
+  font-size: 2.14857em;
+  line-height: 1.2;
+  text-decoration: none;
+  padding: 10px 0;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  background-position: center bottom 29%;
+  background-origin: padding-box;
+  text-shadow: 3px 0 #fff, 2px 0 #fff, 1px 0 #fff, -1px 0 #fff, -2px 0 #fff, -3px 0 #fff;
 }
 
 .guild1 a {
   background-image: linear-gradient(#41b14f, #41b14f);
   color: #41b14f;
-  
 }
 
 .guild2 a {
@@ -842,19 +845,20 @@ mark {
 .guid p {
   margin-top: 20px;
   color: #333;
-  font-size: calc(.35842vw + .95296em);
+  font-size: calc(0.35842vw + 0.95296em);
 }
 
 /* END: Guid section */
-.floating-text{
+.floating-text {
   font-size: 39px;
-    color: black;
-    font-weight: 700;
-    background: white;
-    line-height: 1em;
-    box-shadow: 0 49px 20px -22px rgb(0, 0, 0);
+  color: black;
+  font-weight: 700;
+  background: white;
+  line-height: 1em;
+  box-shadow: 0 49px 20px -22px rgb(0, 0, 0);
 }
-.float-txt{
+
+.float-txt {
   position: absolute;
   text-align: center;
   width: 100%;
