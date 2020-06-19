@@ -1,6 +1,7 @@
+#Design Teardown
+Microverse Collaborative Project (Berhanu and Umair)
 
-Microverse Collaborative Project (Ramin and Umair)
-
+![screenshot](img/project.png)
 
 Additional description about the project and its features.
 
@@ -11,7 +12,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/RaminMammadzada/building-with-backgrounds-and-gradients/1966b3292c77d2fd517871cba9f118e4a8d1b9ac/index.html)
+[Live Demo Link](https://rawcdn.githack.com/umairarshadbutt/Design-Teardown/ab08f05a350b8a3f1fec3f876b1b2e2178d0a817/index.html)
 
 
 ## Getting Started
@@ -33,7 +34,7 @@ To get a local copy  and to set it up and running follow these simple example st
 - Browser
 - Internet
 
-- Download the code from repository (https://github.com/RaminMammadzada/building-with-backgrounds-and-gradients) and double click the index.html file
+- Download the code from repository (https://github.com/umairarshadbutt/Design-Teardown/tree/new-feature) and double click the index.html file
 
 
 ## Authors
