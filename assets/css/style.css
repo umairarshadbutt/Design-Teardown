@@ -623,6 +623,7 @@ footer ul li a:hover {
   line-height: 25px;
   padding: 14px 10px 10px;
   color: #333;
+  height: 200px;
 }
 
 .person-of-week p a {
@@ -650,6 +651,38 @@ footer ul li a:hover {
   margin-left: 2%;
 }
 
+.col10-person-of-week-sub span{
+  color: #666;
+  font-weight: 700;
+  font-size: calc(.9em + .1vw);
+}
+
+.col10-person-of-week-sub span a{
+  color: #666;
+  text-decoration: underline;
+}
+
+.col10-person-of-week-sub h1{
+  color: #333;
+    font-size: calc(18px + 1vw);
+    max-width: 800px;
+    margin: .15em 0 .5em;
+}
+
+.col10-person-of-week-sub h1:hover{
+  color: red;
+}
+time{
+  font-style: italic;
+}
+.col10-person-of-week-sub p {
+  font-family: none;
+  margin-bottom: 26px;
+}
+
+.latest-new-div{
+  margin-left: 70px;
+}
 .col2-person-of-week-sub img{
   width: 70px;
     height: 70px;
