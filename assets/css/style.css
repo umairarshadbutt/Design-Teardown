@@ -12,7 +12,6 @@ body {
   background-color: #f6f3f2;
   line-height: calc(1.5em + 0.2vw);
   word-break: break-word;
-  font-size: calc(.35842vw + .95296em);
 }
 
 ul {
@@ -843,6 +842,7 @@ mark {
 .guid p {
   margin-top: 20px;
   color: #333;
+  font-size: calc(.35842vw + .95296em);
 }
 
 /* END: Guid section */
