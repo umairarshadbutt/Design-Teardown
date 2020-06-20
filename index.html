@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+        <title>Design Teardown</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://kit.fontawesome.com/f977934f89.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body>
+        <header>
+            <ul class="nav">
+                <li class="nav-item nav-item1">
+                    <a class="logo-link" href="#">
+                        <picture>
+                            <img class="logo" src="./assets/images/logo--full.svg" alt="Smashing magazine">
+                        </picture>
+                    </a>
+                </li>
+                <li class="nav-item nav-item2"><a href="#">Articles</a></li>
+                <li class="nav-item nav-item3"><a href="#">Guides</a></li>
+                <li class="nav-item nav-item4"><a href="#">Books</a></li>
+                <li class="nav-item nav-item7"><a href="#">Jobs</a></li>
+                <li class="nav-item nav-item8"><a href="#">Newsletter</a></li>
+                <li class="nav-item nav-item9"><a href="#">Podcasts</a></li>
+                <li class="nav-item nav-item10">
+                    <button  type="button">
+                        <span>More</span>
+                        <img src="./assets/images/menu-cat.svg" alt="Cat">
+
+                    </button>
+                    
+                </li>
+                <li class="nav-item nav-item11">
+                    <input type="search" placeholder="Search articles..">
+                </li>
+            </ul>
+            <div class="float-txt">
+                <span class="floating-text">Don't Miss These Latest <br>
+                  Articles</span>
+              </div>
+        </header>
+
+        <div class="article">
+            <div id="container">
+                <div class="box box-color1">
+                    <article>
+                        <div>
+                            <img class="profile" src="./assets/images/img1.jpg" alt="profile">  <span class="name-position"><a href="" class="writer-name"><b>Carmine Zaccagnino </b> wrote</a></span>
+                                <h1>
+                                    Solving Common Cross-Platform Issues When Working With Flutter <span class="comment" ><i class='far fa-comment-alt'></i> Leave acomment</span>
+                                </h1>
+                            <p> <span>#</span> APPS<sup>200</sup>  <span>#</span> Performance <sup>124</sup> </p>
+                        </div>
+                    </article>
+                    <a href="#" class="arrow">→</a>
+                </div>
+                <div class="box box-color2">
+                    <article>
+                        <div>
+                            <img class="profile" src="./assets/images/kelvin-omereshone.jpg"  alt="profile">  <span class="name-position"><a href="" class="writer-name"><b>Kelvin Omereshone </b> wrote</a></span>
+                                <h1>
+                                    Mirage JS Deep Dive: Using Mirage JS And Cypress For UI Testing (Part 4) <span class="comment" ><i class='far fa-comment-alt'></i> 1 comment</span>
+                                </h1>
+                            <p> <span>#</span> UI<sup>83</sup>  <span>#</span> API <sup>54</sup> <span>#</span> Testing <sup>50</sup></p>
+                        </div>
+                    </article>
+                    <a href="#" class="arrow">→</a>
+                </div>
+                <div class="box box-color3">
+                    <article>
+                        <div>
+                            <img class="profile" src="./assets/images/img2.jpg" alt="profile">  <span class="name-position"><a href="" class="writer-name"><b>Chidi Orji</b> wrote</a></span>
+                                <h1>
+                                    Better Reducers With Immer <span class="comment" ><i class='far fa-comment-alt'></i> 4 comment</span>
+                                </h1>
+                            <p> <span>#</span> Tools<sup>228</sup>  <span>#</span> React <sup>44</sup> <span>#</span> Javascript <sup>273</sup></p>
+                            
+                        </div>
+                    </article>
+                    <a href="#" class="arrow">→</a>
+                </div>
+                <div class="box box-color4">
+                    <article>
+                        <div>
+                            <img class="profile" src="./assets/images/img3.jpg"  alt="profile">  <span class="name-position"><a href="" class="writer-name"><b>Drew McLellan </b> wrote</a></span>
+                                <h1>
+                                    Smashing Podcast Episode 18 With Mina Markham: How Can I Learn React? <span class="comment" ><i class='far fa-comment-alt'></i> Leave a comment</span>
+                                </h1>
+                            <p> <span>#</span> Smashing Podcast<sup>18</sup></p>
+                        </div>
+                    </article>
+                    <a href="#" class="arrow">→</a>
+                </div>
+               
+            </div>
+           
+        </div>
+
+        <div class="latest">
+            <article class="column4" >
+                <p class="latest-day">4 days ago</p>
+                <h2><a href="#">Which Video Conferencing Tools Are Most Accessible?</a></h2>
+                <span>by <a href="#">Claudio Luis Vera</a></span>
+                <p>In this article, Claudio Luis Vera explains what to keep in mind when choosing between video conferencing tools to benefit everyone on your team — including those with disabilities.</p>
+                <a href="#" class="arrow-latest">→</a>
+            </article>
+
+              <article class="column4" >
+                <p class="latest-day">7 days ago</p>
+                <h2><a href="#">Internationalization In Vue With The Vue I18n Plugin</a></h2>
+                <span>by <a href="#">Timi Omoyeni</a></span>
+                <p>Adding Internationalization to your Vue.js application has a lot of use cases and in this tutorial, we’re going to learn about to do this with the Vue I18n plugin and how to set it up in our application.</p>
+                <a href="#" class="arrow-latest">→</a>
+              </article>
+              <article class="column4" >
+                <p class="latest-day">9 days ago</p>
+                <h2><a href="#">Mirage JS Deep Dive: Understanding Timing, Response And Passthrough (Part 3)</a></h2>
+                <span>by <a href="#">Kelvin Omereshone</a></span>
+                <p>In this third part of Mirage JS Deep Dive series, we will be focusing on using <code>reponse</code>, <code>timing</code> and <code>passthrough</code>  in Mirage for a better handle on simulating an actual backend server.</p>
+                <a href="#" class="arrow-latest">→</a>
+              </article>
+            </div>
+
+        <div class="smashing-members">
+
+            <section class="counter">
+
+                <a class="counter-img" href="#"></a>                
+
+                <h2 class="number-heading">
+                    <a href="#">1,651 smashing members</a>
+                </h2>
+
+                <p>A friendly community that keeps this website alive. With books, webinars, discounts and networking — for just 1 coffee a month. <a>Join the family</a>. Explore features </p>
+
+                <div class="button-link">
+                    <a href="#">Explore Features  </a>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <p class="counter-footer">Already have an account? <a class="cf-link" href="#">Sign in!</a></p>
+            </section>
+
+            <section class="news wasys">
+                <p class="day news-item">14 days ago</p>
+                <h2 class="news-item">
+                    <a class="news-header-link" href="#">
+                        Is your Site Stresing out visitors
+                    </a>
+                </h2>
+
+                <span class="news-item">by <a class="news-author" href="#">Suzanne Scacca</a></span>
+
+                <p class="detail news-item">
+                    Stress isn’t just something that makes people feel uncomfortable. There are many things that might invoke this response from your visitors, including the design. In this article, we’re going to look at some ways to de-stress your design.
+                </p>
+
+                <div class="news-arrow">
+                    <a href="#">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+            </section>
+
+            <section class="news order-comp">
+
+                <p class="day news-item">14 days ago</p>
+                <h2 class="news-item">
+                    <a class="news-header-link" href="#">
+                        Is your Site Stresing out visitors
+                    </a>
+                </h2>
+
+                <span class="news-item">by <a class="news-author" href="#">Suzanne Scacca</a></span>
+
+                <p class="detail news-item">
+                    Stress isn’t just something that makes people feel uncomfortable. There are many things that might invoke this response from your visitors, including the design. In this article, we’re going to look at some ways to de-stress your design.
+                </p>
+
+                <div class="news-arrow">
+                    <a href="#">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </section>
+            
+
+        </div>
+
+        <div class="smashing-members2">
+
+            
+
+            <section class="news wasys">
+                <p class="day news-item">14 days ago</p>
+                <h2 class="news-item">
+                    <a class="news-header-link" href="#">
+                        Is your Site Stresing out visitors
+                    </a>
+                </h2>
+
+                <span class="news-item">by <a class="news-author" href="#">Suzanne Scacca</a></span>
+
+                <p class="detail news-item">
+                    Stress isn’t just something that makes people feel uncomfortable. There are many things that might invoke this response from your visitors, including the design. In this article, we’re going to look at some ways to de-stress your design.
+                </p>
+
+                <div class="news-arrow">
+                    <a href="#">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+            </section>
+
+            <section class="news order-comp">
+
+                <p class="day news-item">14 days ago</p>
+                <h2 class="news-item">
+                    <a class="news-header-link" href="#">
+                        Is your Site Stresing out visitors
+                    </a>
+                </h2>
+
+                <span class="news-item">by <a class="news-author" href="#">Suzanne Scacca</a></span>
+
+                <p class="detail news-item">
+                    Stress isn’t just something that makes people feel uncomfortable. There are many things that might invoke this response from your visitors, including the design. In this article, we’re going to look at some ways to de-stress your design.
+                </p>
+
+                <div class="news-arrow">
+                    <a href="#">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </section>
+
+            <section class="counter">
+
+                <a class="counter-img" href="#"></a>                
+
+                <h2 class="number-heading">
+                    <a href="#">1,651 smashing members</a>
+                </h2>
+
+                <p>A friendly community that keeps this website alive. With books, webinars, discounts and networking — for just 1 coffee a month. <a>Join the family</a>. Explore features </p>
+
+                <div class="button-link">
+                    <a href="#">Explore Features  </a>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <p class="counter-footer">Already have an account? <a class="cf-link" href="#">Sign in!</a></p>
+            </section>
+
+        </div>
+
+        <section class="banner txt-center">
+
+            <h4>May 2020 • Pre-Release</h4>
+            <h1><a href="#">Meet “Click!”: Encourage Clicks Without Shady Tricks</a></h1>
+            <p>
+                Our new book on how to boost business KPIs, build trust and address doubts effectively — without alienating people along the way. By Paul Boag.
+            </p>
+            <button type="button" class="light-btn">Jump to table of contents</button>
+            <img src="./assets/images/banner.svg" alt="banner">
+        </section>
+
+        <div class="person-of-week">
+            <article>
+                <div>
+                    <div class="col2-person-of-week">
+                        <img class="profile" src="./assets/images/kelvin-omereshone.jpg" alt="profile">
+
+                    </div>
+                    <div class="col10-person-of-week">
+                        <h1>
+                            PERSON OF THE WEEK                        
+                        </h1>
+                        <p>
+                            April Speight (<a href="#">@vogueandcode</a>) has been in the tech industry for seven years after a career in luxury fashion as a menswear stylist and visual merchandiser. Currently a Cloud Advocate at Microsoft, she loves working with bots and voice-enabled devices and creates new realities within the world of spatial computing. To help others get started on their XR journey, April shares coding tutorials on her site and on her <a href="#">YouTube</a> channel. She has also written a <a href="#">Python programming book for children</a>. Thank you for sharing and caring, dear April!
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="latest-new-div">
+                    <div class="col2-person-of-week-sub">
+                        <img class="profile sub-week-image" src="./assets/images/kelvin-omereshone.jpg" alt="profile">
+
+                    </div>
+                    <div class="col10-person-of-week-sub">
+
+                        <span><a href="#">Thiru Manikandan</a> wrote</span>
+                        <h1>
+                            Learning Z-Index Using A Visualization Tool                       
+                        </h1>
+                        <p>
+                            <i>june 15, 2020</i> — Have you always found the concept of z-index tricky? Thiru Manikandan shares a visualization tool that lets you change z-indexes of elements and see the result in real-time.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="latest-new-div">
+                    <div class="col2-person-of-week-sub">
+                        <img class="profile sub-week-image" src="./assets/images/kelvin-omereshone.jpg" alt="profile">
+
+                    </div>
+                    <div class="col10-person-of-week-sub">
+
+                        <span><a href="#">Thiru Manikandan</a> wrote</span>
+                        <h1>
+                            Learning Z-Index Using A Visualization Tool                       
+                        </h1>
+                        <p>
+                            <i>june 15, 2020</i> — Have you always found the concept of z-index tricky? Thiru Manikandan shares a visualization tool that lets you change z-indexes of elements and see the result in real-time.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="latest-new-div">
+                    <div class="col2-person-of-week-sub">
+                        <img class="profile sub-week-image" src="./assets/images/kelvin-omereshone.jpg" alt="profile">
+
+                    </div>
+                    <div class="col10-person-of-week-sub">
+
+                        <span><a href="#">Thiru Manikandan</a> wrote</span>
+                        <h1>
+                            Learning Z-Index Using A Visualization Tool                       
+                        </h1>
+                        <p>
+                            <i>june 15, 2020</i> — Have you always found the concept of z-index tricky? Thiru Manikandan shares a visualization tool that lets you change z-indexes of elements and see the result in real-time.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="latest-new-div">
+                    <div class="col2-person-of-week-sub">
+                        <img class="profile sub-week-image" src="./assets/images/kelvin-omereshone.jpg" alt="profile">
+
+                    </div>
+                    <div class="col10-person-of-week-sub">
+
+                        <span><a href="#">Thiru Manikandan</a> wrote</span>
+                        <h1>
+                            Learning Z-Index Using A Visualization Tool                       
+                        </h1>
+                        <p>
+                            <i>june 15, 2020</i> — Have you always found the concept of z-index tricky? Thiru Manikandan shares a visualization tool that lets you change z-indexes of elements and see the result in real-time.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="latest-new-div">
+                    <div class="col2-person-of-week-sub">
+                        <img class="profile sub-week-image" src="./assets/images/kelvin-omereshone.jpg" alt="profile">
+
+                    </div>
+                    <div class="col10-person-of-week-sub">
+
+                        <span><a href="#">Thiru Manikandan</a> wrote</span>
+                        <h1>
+                            Learning Z-Index Using A Visualization Tool                       
+                        </h1>
+                        <p>
+                            <i>june 15, 2020</i> — Have you always found the concept of z-index tricky? Thiru Manikandan shares a visualization tool that lets you change z-indexes of elements and see the result in real-time.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="latest-new-div">
+                    <div class="col2-person-of-week-sub">
+                        <img class="profile sub-week-image" src="./assets/images/kelvin-omereshone.jpg" alt="profile">
+
+                    </div>
+                    <div class="col10-person-of-week-sub">
+
+                        <span><a href="#">Thiru Manikandan</a> wrote</span>
+                        <h1>
+                            Learning Z-Index Using A Visualization Tool                       
+                        </h1>
+                        <p>
+                            <i>june 15, 2020</i> — Have you always found the concept of z-index tricky? Thiru Manikandan shares a visualization tool that lets you change z-indexes of elements and see the result in real-time.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            
+        </div>
+
+
+        <section class="book-section">
+            <div class="book-left">
+
+               <span>
+                FEATURED SMASHING BOOK
+               </span>
+               <h1>
+                Design Systems
+               </h1>
+
+               <p>
+                Meet Design Systems, a recent Smashing book in which Alla Kholmatova explores how to set up an effective design system to create great digital products. With common traps, gotchas and lessons learned.
+
+               </p>
+                <button class="light-btn" type="button">Jump to table of contents</button>
+            </div>
+    
+            <div class="book-right">
+                <img class="book-img" src="./assets/images/book.png" alt="book">
+            </div>
+        </section>
+
+        <div class="guids">
+
+            <section class="guid guild1">
+                <h6>A SMASHING GUIDE TO</h6>
+                <a class="guild-link">JavaScript</a>
+                <p class="guid-detail">
+                    React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced JavaScript developer working with one of these frameworks, or just starting to learn, our authors have created some tutorials for you.
+                </p>
+                <button class="guid-btn" type="button">
+                    Explore Javascript & Frameworks
+                </button>
+            </section>
+            <section class="guid guild2">
+                <h6>A SMASHING GUIDE TO</h6>
+                <a class="guild-link">CSS Layout</a>
+                <p class="guid-detail">
+                    React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced JavaScript developer working with one of these frameworks, or just starting to learn, our authors have created some tutorials for you.
+                </p>
+                <button class="guid-btn"  type="button">
+                    Explore CSS Layout
+                </button>
+            </section>
+            <section class="guid guild3">
+                <h6>A SMASHING GUIDE TO</h6>
+                <a class="guild-link">Web Performance</a>
+                <p class="guid-detail">
+                    React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced JavaScript developer working with one of these frameworks, or just starting to learn, our authors have created some tutorials for you.
+                </p>
+                <button class="guid-btn" type="button">
+                    Explore Performance
+                </button>
+            </section>
+
+        </div>
+
+        
+        <br><br><br>
+        <footer class="backgound-image"> 
+            <div class="backgound-image-bird">
+                <h4>BROWSE ALL SMASHING MAGAZINE TOPICS</h4>
+            <ul>
+                <li> ● <a href="#">Accessibility</a></li>
+                <li> ● <a href="#">Android</a></li>
+                <li> ● <a href="#">Animation</a></li>
+                <li> ● <a href="#">Apps</a></li>
+                <li> ● <a href="#">CSS</a></li>
+                <li> ● <a href="#">Design</a></li>
+                <li> ● <a href="#">Design Patterns</a></li>
+                <li> ● <a href="#">Design Systems</a></li>
+                <li> ● <a href="#">E-Commerce</a></li>
+                <li> ● <a href="#">Freebies</a></li>
+                <li> ● <a href="#">Graphics</a></li>
+                <li> ● <a href="#">HTML</a></li>
+                <li> ● <a href="#">Illustrator</a></li>
+                <li> ● <a href="#">Inspiration</a></li>
+                <li> ● <a href="#">iOS</a></li>
+                <li> ● <a href="#">JavaScript</a></li>
+                <li> ● <a href="#">Mobile</a></li>
+                <li> ● <a href="#">Pattern Libraries</a></li>
+                <li> ● <a href="#">Performance</a></li>
+                <li> ● <a href="#">Photoshop</a></li>
+                <li> ● <a href="#">Plugins</a></li>
+                <li> ● <a href="#">React</a></li>
+                <li> ● <a href="#">Responsive Web Design</a></li>
+                <li> ● <a href="#">Service Workers</a></li>
+                <li> ● <a href="#">Sketch</a></li>
+                <li> ● <a href="#">Typography</a></li>
+                <li> ● <a href="#">UI</a></li>
+                <li> ● <a href="#">Usability</a></li>
+                <li> ● <a href="#">User Experience</a></li>
+                <li> ● <a href="#">Wallpapers</a></li>
+                <li> ● <a href="#">Web Design</a></li>
+                <li> ● <a href="#">WordPress</a></li>
+                <li> ● <a href="#">Workflow</a></li>
+            </ul>
+
+            <div class="footer-middle-div">
+                <p>
+                    With a commitment to quality content for the design community.
+                </p>
+                <p>
+                    Founded by Vitaly Friedman and Sven Lennartz. 2006–2020.
+                </p>
+                <p>
+                    Smashing is proudly running on <a href="#">Netlify</a>.
+                </p>
+                <p>
+                    Fonts by <a>Latinotype</a>.
+                </p>
+            </div>
+
+            <div class="footer-second-list">
+                <ul>
+                    <li><a href="#">Write for us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">About us (Impressum)</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Membership login</a></li>
+                    <li><a href="#">Delivery times</a></li>
+                    <li><a href="#">Advertise</a></li>
+                </ul>
+            </div>
+            </div>
+        </footer>
+    </body>
+</html>
