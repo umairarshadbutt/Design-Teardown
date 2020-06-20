@@ -12,7 +12,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/umairarshadbutt/Design-Teardown/ab08f05a350b8a3f1fec3f876b1b2e2178d0a817/index.html)
+[Live Demo Link](https://rawcdn.githack.com/umairarshadbutt/Design-Teardown/cfc400da6b29ec28eb50960ffb81cc1ff7566bd1/index.html)
 
 
 ## Getting Started
