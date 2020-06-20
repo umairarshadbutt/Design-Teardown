@@ -475,6 +475,10 @@ footer ul li {
   text-decoration: underline;
 }
 
+.footer-second-list {
+  font-size: 0.8em;
+}
+
 .footer-second-list a {
   color: #fff;
   text-decoration: underline;
